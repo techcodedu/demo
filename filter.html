@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Gallery</title>
+    <style>
+        .breeds {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .breed {
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .gallery {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .dog {
+            width: 150px;
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="breeds" id="breeds">
+        <!-- Dog breeds will be populated here -->
+    </div>
+
+    <div class="gallery" id="gallery">
+        <!-- Selected breed images will be displayed here -->
+    </div>
+
+    <script src="dogs.js"></script>
+</body>
+</html>
